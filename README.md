@@ -23,6 +23,8 @@ docker run --name cezerin -p 80:3000 cezerin/cezerin
 
 # Docker Compose
 ```shell
+git clone https://github.com/cezerin/docker-cezerin
+cd docker-cezerin/compose
 docker-compose up
 ```
 

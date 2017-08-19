@@ -1,9 +1,9 @@
-FROM node:8-alpine
+FROM node:latest
 MAINTAINER Restmount <jsonmount@gmail.com>
 
 ENV CEZERIN_VERSION 0.21.0
 
-RUN apk add --no-cache \
+RUN apt-get update && apt-get install -y \
     bash \
     zip \
     unzip \

@@ -25,7 +25,7 @@ RUN curl -sL https://deb.nodesource.com/setup_${NODE_VERSION}.x | bash - \
 	&& npm install pm2 -g
 
 COPY nginx.conf /etc/nginx/
-COPY app.conf /etc/nginx/conf.d/
+COPY default.conf /etc/nginx/conf.d/
 COPY docker-entrypoint.sh /usr/local/bin/
 
 # download and build project

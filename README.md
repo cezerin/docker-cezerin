@@ -1,6 +1,8 @@
 # Supported tags and respective Dockerfile links
 
-- ```0.26.0```, ```latest```
+- ```0.27.0```, ```latest```
+[(0.26.0/Dockerfile)](https://github.com/cezerin/docker-cezerin/blob/master/images/0.27.0/Dockerfile)
+- ```0.26.0```
 [(0.26.0/Dockerfile)](https://github.com/cezerin/docker-cezerin/blob/master/images/0.26.0/Dockerfile)
 - ```0.25.0```
 [(0.25.0/Dockerfile)](https://github.com/cezerin/docker-cezerin/blob/master/images/0.25.0/Dockerfile)

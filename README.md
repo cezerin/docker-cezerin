@@ -1,17 +1,11 @@
 # Supported tags and respective Dockerfile links
 
-- ```0.28.0```, ```latest```
+- ```0.29.0```, ```latest```
+[(0.29.0/Dockerfile)](https://github.com/cezerin/docker-cezerin/blob/master/images/0.29.0/Dockerfile)
+- ```0.28.0```
 [(0.28.0/Dockerfile)](https://github.com/cezerin/docker-cezerin/blob/master/images/0.28.0/Dockerfile)
 - ```0.27.0```
 [(0.27.0/Dockerfile)](https://github.com/cezerin/docker-cezerin/blob/master/images/0.27.0/Dockerfile)
-- ```0.26.0```
-[(0.26.0/Dockerfile)](https://github.com/cezerin/docker-cezerin/blob/master/images/0.26.0/Dockerfile)
-- ```0.25.0```
-[(0.25.0/Dockerfile)](https://github.com/cezerin/docker-cezerin/blob/master/images/0.25.0/Dockerfile)
-- ```0.21.0```
-[(0.21.0/Dockerfile)](https://github.com/cezerin/docker-cezerin/blob/master/images/0.21.0/Dockerfile)
-- ```0.18.0```
-[(0.18.0/Dockerfile)](https://github.com/cezerin/docker-cezerin/blob/master/images/0.18.0/Dockerfile)
 
 
 # What is Cezerin?

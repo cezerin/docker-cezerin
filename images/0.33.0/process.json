@@ -1,0 +1,19 @@
+{
+  "apps": [{
+    "name": "api",
+    "script": "./src/api/server/index.js",
+    "instances": "1",
+    "exec_mode": "fork",
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }, {
+    "name": "store",
+    "script": "./dist/store/server/index.js",
+    "instances": "1",
+    "exec_mode": "fork",
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }]
+}

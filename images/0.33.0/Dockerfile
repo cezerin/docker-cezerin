@@ -22,11 +22,8 @@ RUN npm install pm2 -g
 
 # download project
 RUN mkdir -p /var/www \
-    && cd /var/www \
-    && wget -O cezerin.zip https://github.com/cezerin/cezerin/archive/v$CEZERIN_VERSION.zip \
-    && unzip cezerin.zip \
-    && rm cezerin.zip \
-    && mv cezerin-$CEZERIN_VERSION cezerin
+	&& cd /var/www \
+	&& git clone https://github.com/cezerin/cezerin.git cezerin
 
 # overwrite config
 COPY config/* /var/www/cezerin/config/

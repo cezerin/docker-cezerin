@@ -1,19 +1,24 @@
 {
-  "apps": [{
-    "name": "api",
-    "script": "./src/api/server/index.js",
-    "instances": "1",
-    "exec_mode": "fork",
-    "env": {
-      "NODE_ENV": "production"
+  "apps": [
+    {
+      "name": "api",
+      "script": "./src/api/server/index.js",
+      "node_args": "-r esm",
+      "instances": "1",
+      "exec_mode": "fork",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    {
+      "name": "store",
+      "script": "./dist/store/server/index.js",
+      "node_args": "-r esm",
+      "instances": "1",
+      "exec_mode": "fork",
+      "env": {
+        "NODE_ENV": "production"
+      }
     }
-  }, {
-    "name": "store",
-    "script": "./dist/store/server/index.js",
-    "instances": "1",
-    "exec_mode": "fork",
-    "env": {
-      "NODE_ENV": "production"
-    }
-  }]
+  ]
 }
